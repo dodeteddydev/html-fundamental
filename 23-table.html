@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar HTML Table</title>
+  </head>
+  <body>
+    <h1>Belajar Table</h1>
+
+    <table style="border: 1px solid black">
+      <colgroup>
+        <col span="2" style="background-color: antiquewhite" />
+        <col style="background-color: steelblue" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th colspan="2">Nama</th>
+          <th>Nilai</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>Doe</td>
+          <td>90</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td rowspan="2">Total</td>
+          <td>Total</td>
+          <td>170</td>
+        </tr>
+        <tr>
+          <td>Rata-rata</td>
+          <td>85</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
